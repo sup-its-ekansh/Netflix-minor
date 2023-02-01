@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Netflix-minor/static/css/main.2f3c5993.css",
+    "main.js": "/Netflix-minor/static/js/main.c13a6ed3.js",
+    "index.html": "/Netflix-minor/index.html",
+    "main.2f3c5993.css.map": "/Netflix-minor/static/css/main.2f3c5993.css.map",
+    "main.c13a6ed3.js.map": "/Netflix-minor/static/js/main.c13a6ed3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f3c5993.css",
+    "static/js/main.c13a6ed3.js"
+  ]
+}
