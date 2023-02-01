@@ -1,0 +1,10 @@
+.signupScreen {
+    max-width: 375px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0, 0, 0, 0.85);
+    position: relative;
+    top: 14rem;
+}
+  

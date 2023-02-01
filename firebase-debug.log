@@ -1,0 +1,49 @@
+[debug] [2023-02-01T03:18:38.614Z] ----------------------------------------------------------------------
+[debug] [2023-02-01T03:18:38.617Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init database
+[debug] [2023-02-01T03:18:38.617Z] CLI Version:   11.21.0
+[debug] [2023-02-01T03:18:38.618Z] Platform:      linux
+[debug] [2023-02-01T03:18:38.618Z] Node Version:  v16.15.1
+[debug] [2023-02-01T03:18:38.618Z] Time:          Wed Feb 01 2023 08:48:38 GMT+0530 (India Standard Time)
+[debug] [2023-02-01T03:18:38.618Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-01T03:18:38.702Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-01T03:18:38.702Z] > authorizing via signed-in user (gargekanshekanshgarg@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/ekansh/Documents/last_ride
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-02-01T03:18:38.708Z] Using project from CLI flag: last-ride-ea04a
+[debug] [2023-02-01T03:18:38.711Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/last-ride-ea04a [none]
+[debug] [2023-02-01T03:18:39.612Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/last-ride-ea04a 200
+[debug] [2023-02-01T03:18:39.613Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/last-ride-ea04a {"projectId":"last-ride-ea04a","projectNumber":"616132258462","displayName":"Last ride","name":"projects/last-ride-ea04a","resources":{"hostingSite":"last-ride-ea04a"},"state":"ACTIVE","etag":"1_fd21d356-38c8-4ea7-82fd-f140f4794c77"}
+[info] i  Using project last-ride-ea04a (Last ride) 
+[info] 
+=== Database Setup
+[info] i  database: ensuring required API firebasedatabase.googleapis.com is enabled... 
+[debug] [2023-02-01T03:18:39.625Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/last-ride-ea04a/services/firebasedatabase.googleapis.com [none]
+[debug] [2023-02-01T03:18:39.625Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/last-ride-ea04a/services/firebasedatabase.googleapis.com x-goog-quota-user=projects/last-ride-ea04a
+[debug] [2023-02-01T03:18:41.860Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/last-ride-ea04a/services/firebasedatabase.googleapis.com 200
+[debug] [2023-02-01T03:18:41.860Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/last-ride-ea04a/services/firebasedatabase.googleapis.com [omitted]
+[info] ✔  database: required API firebasedatabase.googleapis.com is enabled 
+[info] 
+[debug] [2023-02-01T03:18:41.861Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/last-ride-ea04a [none]
+[debug] [2023-02-01T03:18:42.572Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/last-ride-ea04a 200
+[debug] [2023-02-01T03:18:42.573Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/last-ride-ea04a {"projectId":"last-ride-ea04a","projectNumber":"616132258462","displayName":"Last ride","name":"projects/last-ride-ea04a","resources":{"hostingSite":"last-ride-ea04a"},"state":"ACTIVE","etag":"1_fd21d356-38c8-4ea7-82fd-f140f4794c77"}
